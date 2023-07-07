@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Candidates</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/search.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body id="filterb">
+    <header class="header">
+      <a href="index.html" class="logo">Recruit</a>
+      <nav class="navbar">
+        <a href="index.html">Logout</a>
+      </nav>
+    </header>
+    <div class="search">
+      <section class="filter">
+        <div class="container">
+          <h1 class="text-center">Search</h1>
+          <div id="filters">
+            <h2>Filters</h2>
+            <div class="row">
+              <div class="col-md-3 mb-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="position"
+                  placeholder="Position"
+                />
+              </div>
+              <div class="col-md-3 mb-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exp"
+                  placeholder="Experience"
+                />
+              </div>
+              <div class="col-md-3 mb-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  placeholder="Location"
+                />
+              </div>
+              <div class="col-md-3 mb-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="project"
+                  placeholder="Projects"
+                />
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Skills
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Full-Stack</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Front-End</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Software Development</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary mt-2">Apply Filters</button>
+          </div>
+          <div id="candidates">
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 1</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 2</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 3</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 4</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 5</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-cont">
+                <p>Candidate 6</p>
+                <img src="assets/user.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
